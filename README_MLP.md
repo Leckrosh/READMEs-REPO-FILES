@@ -49,7 +49,7 @@ NeuralNetwork mlp({784, 16, 16, 10}, {"relu", "relu", "softmax"});  // 784 input
 mlp.learn(input_data, labels, 1000, 32, 0.01, "cross_entropy_loss", true); // input data, labels, batch size, learning rate, loss function, verbose (true by default)
 ```
 ## Test Run On MNSIT 
-![Screenshot 2025-04-22 114559](https://github.com/user-attachments/assets/a934e0be-2e67-4015-aada-24e67a29b6f4)
+![Captura de pantalla 2025-04-26 203019](https://github.com/user-attachments/assets/87721831-cb23-4f7f-8c8c-5836c9eb1f79)
 
 - 95% accuracy on MNIST handwritten digit classification with just 20 epochs
 
